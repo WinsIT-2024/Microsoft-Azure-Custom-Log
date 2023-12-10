@@ -1,20 +1,24 @@
 <h1>Microsoft Azure Home Lab</h1>
 
 
-<h2>Description</h2>
-This was a brief home lab project I created to practice and help showcase some of my knowledge of the Microsoft Azure cloud platform.
+<h2>Project Overview</h2>
+This project demonstrates the creation of a virtual machine (VM) in Microsoft Azure and the implementation of an automated PowerShell script for robust login attempt tracking and visualization. The script tracks failed login attempts and sends that information to a Log Analytics workspace. The raw data is then extracted from the workspace using a custom query and displayed as a world map in a Microsoft Defender workbook, providing insightful geographical context.
 <br />
 
 
-<h2>Software Used</h2>
+<h2>Key Technologies</h2>
 
-- <b>Windows® PowerShell</b> 
-  
+- <b>Microsoft Azure</b>
+- <b>Microsoft Defender</b>
+- <b>Log Analytics</b>  
+- <b>Kusto Query Language(KQL)</b>
+- <b>PowerShell</b>
 
-<h2>Environments Used </h2>
+
+<h2>Environment Used </h2>
 
 - <b>Windows® 10</b> (22H2)
-- <b>Microsoft® Azure</b>
+
 
 <h2>Project Walk-through:</h2>
 
