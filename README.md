@@ -1,4 +1,4 @@
-<h1>Microsoft Azure Home Lab</h1>
+<h1>Microsoft Azure Custom Log</h1>
 
 
 <h2>Project Overview</h2>
@@ -22,24 +22,29 @@ This project demonstrates the creation of a virtual machine (VM) in Microsoft Az
 
 <h2>Project Walk-through:</h2>
 
-<p align="center">
-Launch the Command Prompt and type "ipconfig" to obtain the IPv4 address of target network: <br/> 
-<img src="https://imgur.com/smLHgVv.png" height="80%" width="80%" alt="Nessus Scan Steps"/>
+<p align="left">
+Azure Virtual Machine Creation:<br/>
+The first step involved setting up a virtual machine in Microsoft Azure. This process included selecting the appropriate VM size, configuring the network settings, and setting up the storage. <br/> 
+<img src="https://imgur.com/SXbbun6.png" height="80%" width="80%" alt="Azure Custom Log"/>
 <br />
 <br />
 Launch Command Prompt on your host computer from a different and type "ping (IPv4 address of the target machine)" to confirm you have connection:  <br/>
-<img src="https://imgur.com/GZMnFXS.png" height="80%" width="80%" alt="Nessus Scan Steps"/>
+<img src="https://imgur.com/GZMnFXS.png" height="80%" width="80%" alt="Azure Custom Log"/>
 <br />
 <br />
 Open Nessus Essentials from your host machine: <br/>
-<img src="https://imgur.com/BlV1PeX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/BlV1PeX.png" height="80%" width="80%" alt="Azure Custom Log"/>
 <br />
 <br />
 Next Steps Coming Soon:  <br/>
-<img src="https://imgur.com/NXzuety.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/NXzuety.png" height="80%" width="80%" alt="Azure Custom Log"/>
 <br />
 <br />
+<h2>Project Conclusion:</h2>
+This project successfully demonstrates the power of combining Azure VM provisioning, automated PowerShell scripting, Log Analytics data collection, and Defender workbook visualization to achieve comprehensive login tracking and insightful threat analysis. This solution can be customized and extended to address specific security needs and provide valuable insights for proactive threat management. <br/>
+<img src="https://imgur.com/VctnWQI.png" height="80%" width="80%" alt="Azure Custom Log"/>
 
+ 
 <!--
  ```diff
 - text in red
