@@ -24,12 +24,16 @@ This project demonstrates the creation of a virtual machine (VM) in Microsoft Az
 <p align="left">
 <b>Virtual Machine Creation:</b> <br/>
 The first step involved setting up a virtual machine in Microsoft Azure. This process included selecting the appropriate VM size, configuring the network settings, and setting up the storage.Then created a resource group and allocated the appropriate resources. <br/> 
+   
 <img src="https://imgur.com/SXbbun6.png" height="80%" width="80%" alt="Azure Custom Log"/>
+
+---
+
 <br/>
 <br/>
 <b>Automate Login Tracking with PowerShell:</b> <br/>
 Next, a PowerShell script was developed to track failed login attempts on the VM. This script was set to run automatically using Azure Automation, ensuring that it would continuously monitor the system without manual intervention. <br/>
- 
+
 <img src="https://imgur.com/wnqWQVn.png" height="80%" width="80%" alt="Azure Custom Log"/>
 <br />
 <img src="https://imgur.com/83aPhPF.png" height="80%" width="80%" alt="Azure Custom Log"/>
@@ -37,6 +41,8 @@ Next, a PowerShell script was developed to track failed login attempts on the VM
 <img src="https://imgur.com/uZR50j7.png" height="80%" width="80%" alt="Azure Custom Log"/>
 <br/>
 <img src="https://imgur.com/bpqFIh0.png" height="80%" width="80%" alt="Azure Custom Log"/>
+
+---
 <br />
 <br />
 <b>Log Analytics Workspace:</b>  <br/>
@@ -44,6 +50,9 @@ The data from the PowerShell script was then sent to a Log Analytics workspace. 
 
 <img src="https://imgur.com/YeyRrvZ.png" height="80%" width="80%" alt="Azure Custom Log"/>
 <br />
+
+---
+
 <b>Data Extraction and Visualization:</b> <br/>
 Finally, the raw data from the Log Analytics workspace was extracted using a custom query and imported into a Microsoft Defender workbook. This workbook was set up to display the data as a world map, providing a visual representation of the locations of the failed login attempts. This visualization aids in identifying patterns and trends in the data, offering valuable insights into potential security threats. <br/>
 
@@ -52,6 +61,8 @@ Finally, the raw data from the Log Analytics workspace was extracted using a cus
 <img src="https://imgur.com/LKPbICq.png" height="80%" width="80%" alt="Azure Custom Log"/>
 <br/>
 <br/>
+
+---
 <b>Project Benefits:</b>
 
 - Enhanced security posture by actively tracking and identifying failed login attempts.
