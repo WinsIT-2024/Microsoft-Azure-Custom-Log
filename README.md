@@ -62,7 +62,7 @@ Finally, the raw data from the Log Analytics workspace was extracted using a cus
 <br/>
 <h2>Project Conclusion:</h2>
 This project successfully demonstrates the power of combining Azure VM provisioning, automated PowerShell scripting, Log Analytics data collection, and Defender workbook visualization to achieve comprehensive login tracking and insightful threat analysis. This solution can be customized and extended to address specific security needs and provide valuable insights for proactive threat management. <br/>
-<img src="https://imgur.com/VctnWQI.png" height="80%" width="80%" alt="Azure Custom Log"/>
+<img src="https://imgur.com/LYcWfZf.png" height="80%" width="80%" alt="Azure Custom Log"/>
 
  
 <!--
